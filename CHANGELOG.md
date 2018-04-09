@@ -32,7 +32,7 @@ PRs are welcome! Please do open an issue to discuss first if it's a big feature,
 - [ ] maybe restrict system file picking dialog too https://github.com/transloadit/uppy/issues/253
 - [ ] uppy-server: what happens if access token expires amid an upload/download process.
 - [ ] good way to change plugin options at runtime—maybe `this.state.options`?
-- [ ] s3: multipart/"resumable" uploads for large files (@goto-bus-stop)
+- [x] s3: multipart/"resumable" uploads for large files (@goto-bus-stop)
 - [ ] DnD Bar: drag and drop + statusbar or progressbar ? (@arturi)
 - [ ] possibility to work on already uploaded / in progress files #112, #113
 - [ ] possibility to edit/delete more than one file at once #118, #97
@@ -120,6 +120,7 @@ What we need to do to release Uppy 1.0
 - [ ] docs: add note in docs or solve the .run() issue, see #756
 - [ ] core: add `uppy.getFiles()` method (@goto-bus-stop / #770)
 - [x] dashboard: fix duplicate plugin IDs, see #702 (@goto-bus-stop)
+- [x] s3: implement multipart uploads (#726, @goto-bus-stop)
 
 ## 0.24.2
 
