@@ -22,12 +22,12 @@ class ActionBrowseTagline extends Component {
           {this.props.i18n('browse')}
         </button>
         <input class="uppy-Dashboard-input"
-          hidden="true"
+          hidden
           aria-hidden="true"
-          tabindex="-1"
+          tabindex={-1}
           type="file"
           name="files[]"
-          multiple="true"
+          multiple
           onchange={this.props.handleInputChange}
           value=""
           ref={(input) => {
